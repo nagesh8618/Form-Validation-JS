@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact{
+    background-color: green;
+    color: white;
+    padding: 1.5em;
+    line-height: 2em;
+}
+form{
+    max-width: 400px;
+    padding: 2em;
+}
+.form-group label{
+display: block;
+font-weight: bold;
+margin-bottom: 0.5em;
+}
+.form-group input{
+    padding: 0.5em;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    border: 1px solid #333;
+}
+.form-group input:focus{
+  outline: none;
+}
+.form-group textarea{
+    width: 80%;
+    height: 125px;
+    padding: 0.5em;
+    font-size: 1.5em;
+    resize: none;
+}
+.error-hint{
+    color: red;
+}
+.hidden{
+    display: none;
+}
+input.invalid{
+    border: 1px solid red;
+}
+hr{
+    border: 1px solid green;
+    margin-top: 0.5em;
+}
+button{
+    padding: 1em 2em;
+    margin-top: 0.5em;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 1em;
+    transition: background-color 0.5s;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+.thankyou{
+    font-size: 2em;
+    text-align: center;
+}
